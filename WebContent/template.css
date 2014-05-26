@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+	background-image: url(images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	color: #494544;
+	text-align: right;
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4944544;
+}
+
+#menu ul {
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+#menu ul li {
+	display: inline;
+	padding-right: 50px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #494544;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #494544;
+}
+
+
+#menu ul li a:hover {
+	color: #3399FF;
+	text-decoration: none;
+	box-shadow: 0 2px 2px -2px gray;
+}
+
+.menu-selected a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3399FF;
+	font-size: 14px;
+	font-weight: bold;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+.filler {
+	background-image: url(images/filler.gif);
+	background-repeat: no-repeat;
+	height:300px;
+}
+
+
+.featured-heading {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	vertical-align:top;
+	padding-left: 50px;
+	background-image: url(images/star.gif);
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+}
+
+.featured-video {
+		vertical-align:top;
+	padding-left: 25px;
+		padding-top: 10px;
+}
+
+.recent-heading {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	vertical-align: middle;
+	padding-left: 60px;
+	background-image: url(images/new-icon.gif);
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+	height:40px;
+}
+
+.categories-heading {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	vertical-align: middle;
+	padding-left: 60px;
+	background-image: url(images/black-gear-icon.gif);
+	background-repeat: no-repeat;
+	background-position: 4% 50%;
+	height:40px;
+}
+
+#category ul {
+	margin: 0;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+#category ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #494544;
+	vertical-align:top;
+}
+
+#category ul li a {
+	text-decoration: none;
+	color: #494544;
+}
+
+#category ul li a:hover {
+	color: #FF3333;
+	text-decoration: none;
+	box-shadow: 0 2px 2px -2px gray;
+}
+.video-icon {
+	/* background-image: url(images/video-icon.gif); */
+	background-repeat: no-repeat;
+	width:185px;
+	height:100px;
+}
+
+
+.rating {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #494544;
+	background-image: url(images/rating-icon.gif);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 2%
+}
+
+.video-description {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444;
+	padding-left: 15px;
+}
+
+.video-title {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #494544;
+	padding-left: 15px;
+}
